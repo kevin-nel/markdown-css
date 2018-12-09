@@ -1,0 +1,18 @@
+html {
+	background: #333;
+	font-family: "Lucida Console", Monospace  ;
+  	color:#d0d0d0;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Verdana", Sans-Serif;
+	color:#fff;
+}
