@@ -1,10 +1,12 @@
-%Title
+% Title
+% Date
+% Author
 
 # Heading 1
 
 ## Sub Heading
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Nunc mattis enim ut tellus elementum sagittis vitae et. Tellus in metus vulputate eu scelerisque felis imperdiet. Aliquet sagittis id consectetur purus. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. **Tempor orci eu lobortis elementum nibh** tellus molestie nunc non. Nunc mattis enim ut tellus elementum sagittis vitae et. Tellus in metus vulputate eu scelerisque felis imperdiet. Aliquet sagittis id consectetur purus. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
 
 Ut porttitor leo a diam. Varius sit amet mattis vulputate enim. Tortor posuere ac ut consequat semper viverra nam. Dui vivamus arcu felis bibendum ut. In vitae turpis massa sed elementum tempus egestas sed sed. Cursus risus at ultrices mi tempus imperdiet. Egestas purus viverra accumsan in nisl nisi scelerisque eu. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. 
 
@@ -28,12 +30,13 @@ At consectetur lorem donec massa sapien. Eget nullam non nisi est sit amet facil
 
 ## Code Blocks
 
-``C
+~~~{C}
+//Hello World C program
 #include<stdio.h>
 
 int main(){
 	printf("Hello World! \n");
 	return 0;
 }
-``
+~~~
 
