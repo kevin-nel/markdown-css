@@ -11,7 +11,7 @@ I will add style for different elements as I come across them
 if you are interested in figuring out how to link a css file to pandoc for static site generation here is the syntax for pandoc (should work in both windows and linux)
 
 ``
-path\to\file.md> pandoc -t html5 --css main.css --toc file.md -s -o file.html
+pandoc -t html5 --css path\to\stylesheet.css --toc path\to\file.md -s -o file.html
 ``
 
 one can ommit ```-t html5``` and ```-s``` if they wish 
