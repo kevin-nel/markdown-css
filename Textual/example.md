@@ -30,32 +30,6 @@ Ultrices vitae auctor eu augue ut lectus. At risus viverra adipiscing at in tell
 3. Sed egestas egestas fringilla phasellus faucibus scelerisque. 
 4. Urna cursus eget nunc scelerisque viverra.
 
-#### Sub Sub Sub Heading
-
-At consectetur lorem donec massa sapien. Eget nullam non nisi est sit amet facilisis magna. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Eu turpis egestas pretium aenean. Sed vulputate mi sit amet. Facilisis volutpat est velit egestas dui. Amet massa vitae tortor condimentum lacinia quis vel. Eu non diam phasellus vestibulum lorem sed risus. Eget nunc scelerisque viverra mauris in aliquam sem. Id diam vel quam elementum pulvinar etiam non. Venenatis lectus magna fringilla urna porttitor. Arcu risus quis varius quam quisque. Sit amet purus gravida quis blandit turpis cursus in. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Tellus cras adipiscing enim eu turpis egestas pretium. Praesent tristique magna sit amet purus gravida quis blandit turpis. Diam vulputate ut pharetra sit amet aliquam id diam maecenas.
-
-1. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. 
-2. Egestas egestas fringilla phasellus faucibus. 
-3. Quis commodo odio aenean sed adipiscing diam donec. 
-4. Egestas erat imperdiet sed euismod.
-
-# Math
-
-## Sub Heading
-
-At consectetur lorem donec massa sapien. Eget nullam non nisi est sit amet facilisis magna. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Eu turpis egestas pretium aenean. Sed vulputate mi sit amet. Facilisis volutpat est velit egestas dui. Amet massa vitae tortor condimentum lacinia quis vel. Eu non diam phasellus vestibulum lorem sed risus. Eget nunc scelerisque viverra mauris in aliquam sem. Id diam vel quam elementum pulvinar etiam non. 
-
-$$ s = \sqrt{\frac{ \sum (x_{i} - \bar{x})^2}{n - 1}} $$
-
-$$
-\begin{align}
-\hat \sigma _ {\bar x}
-    &= s / \sqrt{n} \\
-    &= 3.853 / \sqrt{250} \\
-    &= 3.853 / 15.811 \\
-    &= 0.244
-\end{align}
-$$
 
 # Code Blocks
 
@@ -69,3 +43,33 @@ int main(){
 }
 ~~~
 
+## Sub Heading
+
+At consectetur lorem donec massa sapien. Eget nullam non nisi est sit amet facilisis magna. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Eu turpis egestas pretium aenean. Sed vulputate mi sit amet. Facilisis volutpat est velit egestas dui. Amet massa vitae tortor condimentum lacinia quis vel. Eu non diam phasellus vestibulum lorem sed risus. Eget nunc scelerisque viverra mauris in aliquam sem. Id diam vel quam elementum pulvinar etiam non. Venenatis lectus magna fringilla urna porttitor. Arcu risus quis varius quam quisque. Sit amet purus gravida quis blandit turpis cursus in. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Tellus cras adipiscing enim eu turpis egestas pretium. Praesent tristique magna sit amet purus gravida quis blandit turpis. Diam vulputate ut pharetra sit amet aliquam id diam maecenas.
+
+1. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. 
+2. Egestas egestas fringilla phasellus faucibus. 
+3. Quis commodo odio aenean sed adipiscing diam donec. 
+4. Egestas erat imperdiet sed euismod.
+
+# Math
+
+## Sub Heading
+
+At consectetur lorem donec massa sapien. Eget nullam non nisi est sit amet facilisis magna.
+
+$$ s = \sqrt{\frac{ \sum (x_{i} - \bar{x})^2}{n - 1}} $$
+
+$$
+\begin{align}
+\hat \sigma _ {\bar x}
+    &= s / \sqrt{n} \\
+    &= 3.853 / \sqrt{250} \\
+    &= 3.853 / 15.811 \\
+    &= 0.244
+\end{align}
+$$
+
+### Sub Sub Sub Heading
+
+Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Eu turpis egestas pretium aenean. Sed vulputate mi sit amet. Facilisis volutpat est velit egestas dui. Amet massa vitae tortor condimentum lacinia quis vel. Eu non diam phasellus vestibulum lorem sed risus. Eget nunc scelerisque viverra mauris in aliquam sem. Id diam vel quam elementum pulvinar etiam non.
