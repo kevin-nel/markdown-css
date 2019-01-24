@@ -1,0 +1,194 @@
+/*
+This stylesheet attempts to create a formal document from pandoc generated html.
+
+original creator: Kevin Nel, https://github.com/kevin-nel 
+
+*/
+
+    /* import google fonts */
+    @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Merriweather|Open+Sans|Pt+Serif');
+
+    /* neaten up for printing */
+    @media print {
+
+      /* insert your style declarations here */
+      html,
+      body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        display: block;
+        padding: 20mm;
+      }
+
+    }
+    p, table, li, ul, blockquote, h1, h2, h3, h4, h5, h6{
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+
+    @page {
+      size: A4;
+    }
+
+    /* title page */
+    header {
+      text-align: center;
+      font-size: 24pt;
+      /* to see page size */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    header h1.title {
+      text-align: center;
+      font-family: Merriweather, serif;
+      font-size: 28pt;
+      order: 0;
+      /* margin: 35% 0% 50% 0%; */
+    }
+
+    header p.author {
+      font-size: 18pt;
+      font-family: 'Open Sans', sans-serif;
+      order: 1;
+    }
+
+    header p.date {
+      font-size: 14pt;
+      font-family: 'Open Sans', sans-serif;
+      order: 2;
+    }
+    /* content */
+    body {
+      background-color: rgb(255, 255, 255);
+      font-family: 'Open Sans', Verdana, sans-serif;
+      color: rgb(0, 0, 0);
+      font-size: 12pt;
+      /* emulate an a4 page */
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      padding-left: 20mm;
+
+      padding-right: 20mm;
+    }
+
+    body * {
+      background-color: inherit;
+    }
+
+    p {
+      color: inherit;
+      font-style: inherit;
+    }
+
+    ul {
+      color: inherit;
+      font-style: inherit;
+      list-style-type: circle;
+    }
+
+    ol {
+      color: inherit;
+      font-style: inherit;
+      list-style-type: lower-alpha;
+    }
+
+    /*code block formatting*/
+
+    pre {
+      background: rgb(49, 49, 49);
+      color: #dadada;
+      page-break-inside: avoid;
+      font-family: 'Consolas', monospace;
+      font-weight: 300;
+      line-height: 1.3;
+      letter-spacing: 0.09em;
+      margin-bottom: 1.6em;
+      max-width: 100%;
+      overflow: auto;
+      padding: 1em 1.5em;
+      display: block;
+      word-wrap: break-word;
+    }
+
+    /*  image/figure formatting */
+    img {
+      page-break-inside: avoid;
+      /* resize and maintain aspect ratio */
+      max-width: 85%;
+      width: auto;
+      height: auto;
+      /* centering */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figcaption {
+      margin-top: 1em;
+      font-size: 10pt;
+    }
+
+    /* math formatting */
+    .math {
+      align-content: center;
+      margin: 0em 2em 0em 2em;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: left;
+      font-family: Merriweather, serif;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    h2 {
+      font-size: 18pt;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 16pt;
+    }
+
+    h1 {
+      font-size: 22pt;
+    }
+
+    h1:not(.title),
+    h2 {
+      /*add border underneath headings*/
+      border-bottom: 1px solid #CCC;
+      padding-bottom: 3px;
+    }
+
+
+
+    code {
+      white-space: pre-wrap;
+    }
+
+    span.smallcaps {
+      font-variant: small-caps;
+    }
+
+    span.underline {
+      text-decoration: underline;
+    }
+
+    div.column {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+    }
